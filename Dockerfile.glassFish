@@ -1,6 +1,0 @@
-FROM glassfish:latest
-
-ADD lib/* /usr/local/glassfish4/glassfish/domains/domain1/lib/
-
-EXPOSE 8080
-EXPOSE 4848
